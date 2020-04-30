@@ -28,3 +28,12 @@ plugins: [
   new InjectPlugin({template: 'views/includes/head.jade', output: path.join(process.cwd(), 'views/includes/head.jade')})
 ]
 ```
+
+### Install
+
+```
+npm install pug-gulp-inject-webpack-plugin -D
+
+const InjectPlugin = require('pug-gulp-inject-webpack-plugin')
+
+```
